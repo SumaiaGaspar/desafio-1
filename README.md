@@ -49,3 +49,22 @@ public class Veiculo {
     // Outros métodos, se necessário
     // ...
 }
+
+package controle;
+import modelo.Cliente;
+import modelo.Veiculo;
+
+public class Principal {
+    public static void main(String[] args) {
+        // Exemplo de uso das classes Cliente e Veiculo
+        Cliente cliente1 = new Cliente("123.456.789-00", "Fulano", "Rua A, 123", "123456789", "fulano@email.com");
+        Veiculo veiculo1 = new Veiculo("ABC1234", "Sedan", 2022, "MarcaX", "Azul");
+
+        // Aqui você pode adicionar mais lógica conforme necessário para atender aos requisitos do projeto
+
+        // Exemplo de impressão para verificar o funcionamento
+        System.out.println("Cliente: " + cliente1.getNome() + ", Veículo: " + veiculo1.getModelo());
+    }
+}
+
+
