@@ -1,4 +1,4 @@
-# desafio-1
+# projetando classes
 Desafio projetando classes
 package modelo;
 
